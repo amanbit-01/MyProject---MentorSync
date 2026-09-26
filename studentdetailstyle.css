@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:#f2f2f2;
+}
+
+/* Navigation Bar */
+nav{
+    background-color:#1f3a3d;
+    padding:20px 30px;
+}
+
+nav h2{
+    color:#44A1A4;
+    margin:0;
+}
+
+/* Page Heading */
+header{
+    background-color:#2f4f4f;
+    text-align:center;
+    padding:30px;
+}
+
+header h3{
+    color:white;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+header p{
+    color:white;
+}
+
+/* Main */
+main{
+    width:750px;
+    max-width:90%;
+    margin:30px auto;
+}
+
+/* Student Details Box */
+section{
+    background-color:white;
+    padding:25px;
+    border:2px solid #44A1A4;
+    border-radius:8px;
+    box-shadow:0 0 8px #cccccc;
+}
+
+section h2{
+    color:#1f3a3d;
+    margin-top:0;
+}
+
+section p{
+    color:#444444;
+    line-height:1.6;
+}
+
+strong{
+    color:#1f3a3d;
+}
+
+/* Links */
+section a{
+    display:inline-block;
+    color:white;
+    background-color:#44A1A4;
+    padding:10px 18px;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+section a:hover{
+    background-color:#1f3a3d;
+}

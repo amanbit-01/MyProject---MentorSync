@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+
+/* Navbar */
+
+nav {
+    background-color: #1f3a3d;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav h2 {
+    color: #44A1A4;
+    margin: 0;
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 12px;
+}
+
+
+/* Hover Effect */
+
+nav a:hover {
+    background-color: #44A1A4;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Main */
+
+main {
+    background-color: #2f4f4f;
+    text-align: center;
+    padding: 80px;
+}
+
+main h1 {
+    color: white;
+}
+
+main p {
+    color: white;
+}
+
+
+/* Section */
+
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+section h2 {
+    color: #1f3a3d;
+}
+
+
+/* Boxes */
+
+section div {
+    display: inline-block;
+    width: 220px;
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    border: 2px solid #44A1A4;
+    border-radius: 8px;
+}
+
+section div h3 {
+    color: #44A1A4;
+}
+
+section div p {
+    color: #444444;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1f3a3d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

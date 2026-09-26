@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login - TrackMyProject</title>
+
+    <link rel="stylesheet" href="loginstyle.css">
+
+</head>
+    
+<body>
+
+        <form onsubmit="loginUser(event)">
+            <script>
+
+    function loginUser(event) {
+
+        event.preventDefault();
+
+        let role = document.querySelector(
+            'input[name="role"]:checked'
+        ).value;
+
+        if (role == "student") {
+
+            window.location.href =
+            "student-dashboard.html";
+
+        }
+
+        else if (role == "mentor") {
+
+            window.location.href =
+            "mentor-dashboard.html";
+
+        }
+
+    }
+
+    </script>
+    <!-- Page Heading -->
+
+    <header>
+
+        <h1>MentorSync</h1>
+
+        <p>
+            Login to continue
+        </p>
+
+    </header>
+
+
+    <!-- Login Form -->
+
+    <main>
+
+        <h2>***** Login ******</h2>
+
+        <form>
+
+            <!-- Choose Role -->
+
+            <p>
+                Select your role:
+            </p>
+
+            <input
+                type="radio"
+                id="student"
+                name="role"
+                value="student"
+                checked
+            >
+
+            <label for="student">
+                Student
+            </label>
+
+
+            <input
+                type="radio"
+                id="mentor"
+                name="role"
+                value="mentor"
+            >
+
+            <label for="mentor">
+                Mentor
+            </label>
+
+            <br><br>
+
+
+            <!-- Email -->
+
+            <label for="email">
+                Email:
+            </label>
+
+            
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <br><br>
+
+
+            <!-- Password -->
+
+            <label for="password">
+                Password:
+            </label>
+
+            
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+            >
+
+            <br><br>
+
+
+            <!-- Login Button -->
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+
+        <!-- Registration -->
+
+        <p>
+            Don't have an account?
+        </p>
+
+        <a href="registrationform.html">
+            Register Now
+        </a>
+
+    </main>
+
+
+    <!-- Back to Home -->
+
+    <footer>
+
+        
+        <a href="index.html">
+            Back to Home
+        </a>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:#f2f2f2;
+}
+
+/* Registration Form */
+
+form{
+    width:500px;
+    max-width:85%;
+    margin:40px auto;
+    background-color:white;
+    padding:30px;
+    border:2px solid #44A1A4;
+    border-radius:8px;
+    box-shadow:0 0 10px #cccccc;
+}
+
+form h2{
+    text-align:center;
+    color:#1f3a3d;
+}
+
+form h3{
+    color:#44A1A4;
+}
+
+/* Labels */
+
+label{
+    color:#1f3a3d;
+    font-weight:bold;
+}
+
+/* Input Fields */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    box-sizing:border-box;
+    border:1px solid #aaaaaa;
+    border-radius:5px;
+}
+
+/* Radio Buttons */
+
+input[type="radio"]{
+    margin-right:5px;
+    cursor:pointer;
+}
+
+/* Student and Mentor Sections */
+
+#student-form,
+#mentor-form{
+    background-color:#f7fafa;
+    padding:20px;
+    margin-top:20px;
+    border-left:4px solid #44A1A4;
+    border-radius:5px;
+}
+
+#mentor-form{
+    display:none;
+}
+
+/* Button */
+
+button{
+    width:100%;
+    padding:12px;
+    background-color:#44A1A4;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#1f3a3d;
+}
+
+/* Back To Home */
+
+form a{
+    color:#44A1A4;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+form a:hover{
+    color:#1f3a3d;
+    text-decoration:underline;
+}

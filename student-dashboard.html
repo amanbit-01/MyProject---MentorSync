@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard - MentorSync</title>
+    <link rel="stylesheet" href="student-dashboardstyle.css" >
+
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+
+        <h2>MentorSync</h2>
+
+
+    </nav>
+    <!-- Page Heading -->
+
+    <header>
+
+        <h1>Student Dashboard</h1>
+
+        <p>
+            Submit your weekly project progress here.
+        </p>
+
+    </header>
+    <!-- Project Update Form -->
+
+    <main>
+
+        <section>
+
+    <h2>Student Information</h2>
+
+    <p>
+        <strong>Name:</strong>
+        Jon Snow
+    </p>
+
+    <p>
+        <strong>Roll Number:</strong>
+        101
+    </p>
+
+    <p>
+        <strong>Email:</strong>
+        jonsnow@gmail.com
+    </p>
+
+    <p>
+        <strong>Course:</strong>
+        Computer Science
+    </p>
+
+    <p>
+        <strong>Year:</strong>
+        2nd Year
+    </p>
+    <p>
+        <strong>Semester:</strong>
+        3rd Semester
+    </p>
+
+    <p>
+        <strong>Mentor:</strong>
+        ABC Sir
+    </p>
+
+    <br><br>
+
+    <form>
+
+        <!-- Project Name -->
+
+        <label for="project-name">
+            Project Name:
+        </label>
+                <br>
+
+                <input
+                    type="text"
+                    id="project-name"
+                    placeholder="Enter project name"
+                >
+                <br><br>
+
+
+                <!-- Week Number -->
+
+                <label for="week">
+                    Week Number:
+                </label>
+
+                <br>
+
+                <input
+                    type="number"
+                    id="week"
+                    placeholder="Enter week number"
+                >
+
+                <br><br>
+                <!-- Work Description -->
+
+                <label for="description">
+                    What did you do this week?
+                </label>
+
+                <br>
+
+                <textarea
+                    id="description"
+                    rows="7"
+                    cols="50"
+                    placeholder="Write your project work here">
+                </textarea>
+
+                <br><br>
+                <!-- Upload File -->
+
+                <label for="file">
+                    Upload Screenshot / Report:
+                </label>
+
+                <br>
+
+                <input
+                    type="file"
+                    id="file"
+                >
+
+                <br><br>
+                <!-- Live Project Link -->
+
+                <label for="project-link">
+                    Live Project Link:
+                </label>
+
+                <br>
+
+                <input
+                    type="url"
+                    id="project-link"
+                    placeholder="Paste your live project link"
+                >
+
+                <br><br>
+                <!-- Submit Button -->
+
+                <button type="submit">
+                    Submit Project Update
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+    <!-- Footer -->
+
+    <footer>
+
+        <a href="login.html">
+            Logout
+        </a>
+        
+        <p>
+            © 2026 MentorSync
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

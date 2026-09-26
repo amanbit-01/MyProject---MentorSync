@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:#f2f2f2;
+}
+
+/* Header */
+header{
+    background-color:#1f3a3d;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    color:#44A1A4;
+    margin:0;
+}
+
+header p{
+    color:white;
+    margin-bottom:0;
+}
+
+/* Login Box */
+main{
+    width:400px;
+    max-width:85%;
+    margin:50px auto;
+    background-color:white;
+    padding:30px;
+    border-radius:8px;
+    border:2px solid #44A1A4;
+    box-shadow:0 0 10px #cccccc;
+}
+
+main h2{
+    text-align:center;
+    color:#1f3a3d;
+}
+
+main p{
+    color:#444444;
+}
+
+/* Labels */
+label{
+    color:#1f3a3d;
+    font-weight:bold;
+}
+
+/* Email and Password */
+input[type="email"],
+input[type="password"]{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #aaaaaa;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+/* Radio Buttons */
+input[type="radio"]{
+    margin-right:5px;
+    cursor:pointer;
+}
+
+/* Login Button */
+button{
+    width:100%;
+    padding:12px;
+    background-color:#44A1A4;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#1f3a3d;
+}
+
+/* Register Link */
+main a{
+    color:#44A1A4;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+main a:hover{
+    color:#1f3a3d;
+    text-decoration:underline;
+}
+
+/* Footer */
+footer{
+    background-color:#1f3a3d;
+    text-align:center;
+    padding:18px;
+    margin-top:50px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer a:hover{
+    color:#44A1A4;
+}

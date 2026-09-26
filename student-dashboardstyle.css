@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:#f2f2f2;
+}
+
+/* Navigation Bar */
+nav{
+    background-color:#1f3a3d;
+    padding:20px 30px;
+}
+
+nav h2{
+    color:#44A1A4;
+    margin:0;
+}
+
+/* Page Heading */
+header{
+    background-color:#2f4f4f;
+    text-align:center;
+    padding:35px;
+}
+
+header h1{
+    color:white;
+    margin-bottom:10px;
+}
+
+header p{
+    color:white;
+}
+
+/* Main */
+main{
+    width:700px;
+    max-width:90%;
+    margin:30px auto;
+}
+
+/* Student Information */
+section{
+    background-color:white;
+    padding:25px;
+    border:2px solid #44A1A4;
+    border-radius:8px;
+    box-shadow:0 0 8px #cccccc;
+}
+
+section h2{
+    color:#1f3a3d;
+    margin-top:0;
+}
+
+section p{
+    color:#444444;
+}
+
+/* Form */
+form{
+    margin-top:20px;
+}
+
+label{
+    color:#1f3a3d;
+    font-weight:bold;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    box-sizing:border-box;
+    border:1px solid #aaaaaa;
+    border-radius:5px;
+}
+
+input[type="file"]{
+    background-color:#f7fafa;
+}
+
+/* Button */
+button{
+    width:100%;
+    padding:12px;
+    background-color:#44A1A4;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#1f3a3d;
+}
+
+/* Footer */
+footer{
+    background-color:#1f3a3d;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+footer a{
+    color:#44A1A4;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer a:hover{
+    color:white;
+    text-decoration:underline;
+}
+
+footer p{
+    margin-bottom:0;
+}

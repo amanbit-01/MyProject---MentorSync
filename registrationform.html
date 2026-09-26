@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Form</title>
+    <script>
+        function registrationForm(){
+            var fullname = document.getElementById("fullname").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var cpassword = document.getElementById("cpassword").value;
+            var fullname = document.getElementById("fullname").value;
+
+            if(fullname==""){
+                alert("Please enter your name..!");
+                return;
+
+            }
+            if(email==""){
+                alert("Enter your email");
+                return;
+
+            }
+            if(email.indexOf("@")==-1 || email.indexOf(".")==-1){
+                alert("Please enter validate email");
+                return;
+                 
+            }
+            if(password==""){
+                alert("Please enter your password");
+                return;
+            }
+
+            if(password > 6 || password < 6){
+                alert("Password must be contain 6 charcter");
+                return;
+            }
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="registrationformstyle.css">
+</head>
+
+<body>
+
+<form>
+<h2>Registration Form</h2>
+
+<p>Select Role</p>
+
+<input type="radio" id="student" name="role" checked>
+<label for="student">Student</label>
+
+<input type="radio" id="mentor" name="role">
+<label for="mentor">Mentor</label>
+
+<br><br>
+
+<!-- Common Fields -->
+
+<label>Full Name</label>
+<br>
+<input type="text" placeholder="Enter Name" id="fullname">
+
+<br><br>
+
+<label>Email</label>
+<br>
+<input type="email" placeholder="Enter Email" id="email">
+
+<br><br>
+
+<label>Password</label>
+<br>
+<input type="password" id="password">
+
+<br><br>
+
+<label>Confirm Password</label>
+<br>
+<input type="password" id="cpassword">
+
+<br><br>
+
+<!-- Student Form -->
+
+<div id="student-form">
+
+<h3>Student Information</h3>
+
+<label>Roll Number</label>
+<br>
+<input type="text" id="rollno">
+
+<br><br>
+
+<label>Course</label>
+<br>
+<input type="text" id="Course">
+
+<br><br>
+
+<label>Year</label>
+<br>
+
+<select>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+</select>
+
+<br><br>
+
+<label>Semester</label>
+<br>
+
+<select>
+<option>Semester 1</option>
+<option>Semester 2</option>
+<option>Semester 3</option>
+<option>Semester 4</option>
+<option>Semester 5</option>
+<option>Semester 6</option>
+<option>Semester 7</option>
+<option>Semester 8</option>
+</select>
+
+<br><br>
+
+<label>Mentor Name</label>
+<br>
+<input type="text" id="mentor">
+
+<br><br>
+
+<label>Project Title</label>
+<br>
+<input type="text" id="Projecttitle">
+
+<br><br>
+
+<label>Project Description</label>
+<br>
+
+<textarea rows="4"></textarea>
+
+</div>
+
+<!-- Mentor Form -->
+
+<div id="mentor-form">
+
+<h3>Mentor Information</h3>
+
+<label>Employee ID</label>
+<br>
+<input type="text">
+
+<br><br>
+
+<label>Department</label>
+<br>
+<input type="text">
+
+<br><br>
+
+<label>Subject</label>
+<br>
+<input type="text">
+
+<br><br>
+
+<label>Designation</label>
+<br>
+<input type="text">
+
+</div>
+
+<br><br>
+
+<button type="submit" value="Register" onclick="registrationForm()">
+Register
+</button>
+
+<br><br>
+
+<a href="index.html">
+Back to Home
+</a>
+
+</form>
+<script>
+
+let student = document.getElementById("student");
+let mentor = document.getElementById("mentor");
+
+let studentForm = document.getElementById("student-form");
+let mentorForm = document.getElementById("mentor-form");
+
+student.onclick = function() {
+
+    studentForm.style.display = "block";
+    mentorForm.style.display = "none";
+
+}
+
+mentor.onclick = function() {
+
+    studentForm.style.display = "none";
+    mentorForm.style.display = "block";
+
+}
+
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
